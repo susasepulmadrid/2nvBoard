@@ -1,0 +1,11 @@
+[build]
+  base = "client"
+  command = "npm run build"
+  publish = "client/dist"
+
+# Redirección para React Router (SPA)
+# Cualquier ruta cae en index.html y React Router se encarga
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
