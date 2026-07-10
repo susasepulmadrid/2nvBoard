@@ -1,2 +1,2 @@
-# 2nv_2NVBoard
+# 2nvBoard
 Aplicacion de gestion 
